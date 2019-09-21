@@ -1,6 +1,4 @@
-package main
-
-import (
+package (
 	"crypto/hmac"
 	"crypto/sha256"
 	"encoding/hex"
