@@ -1,4 +1,6 @@
-package (
+package assignment01IBC
+
+import (
 	"crypto/hmac"
 	"crypto/sha256"
 	"encoding/hex"
