@@ -65,7 +65,7 @@ func VerifyChain(chainHead *Block) string {
 
 		}
 
-		return hashBlock(chainHead.transaction + chainHead.hashValue)
+		return hashBlock(chainHead.transaction + blockHash)
 
 	}
 }
